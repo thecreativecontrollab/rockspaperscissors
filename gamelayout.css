@@ -1,0 +1,75 @@
+
+title {
+	background: rgb(2,0,36);
+	color: white;
+	font-family: monospace;
+}
+
+body {
+
+background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(4,2,57,1) 24%, rgba(226,226,236,1) 75%, rgba(202,207,217,1) 100%);
+}
+
+.flex-container {
+	background:black;
+	padding: 10px;
+	border: 10px;
+	margin:10px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: monospace;
+
+}
+
+/*.box {
+	justify-content: center;
+}*/
+
+header {
+	font-family: monospace;
+	color: white;
+	background: rgb(2,0,36);
+}
+
+h1 {
+	text-align: center;
+	background: rgb(2,0,36);
+	color: white;
+	font-family: monospace;
+
+}
+
+h3 {
+	color: white;
+	text-align: center;
+}
+
+section{
+
+	font-family: monospace;
+	justify-content: center;
+}
+
+button {
+	background: #181488;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+}
+
+/*section li {
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+	font-family: monospace;
+}*/
+
+footer {
+	font-family: monospace;
+	color: white;
+	background: rgb(2,0,36);
+	text-align: center;
+}
