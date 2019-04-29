@@ -8,7 +8,7 @@ body
 	padding: 0;
 	background: #000;
 }
-a
+.button
 {
 		position:absolute;
 		top: 50%;
@@ -28,7 +28,7 @@ a
 		background-size: 400%;
 		border-radius:30px;
 }
-a:hover	
+.button:hover	
 {
 	animation: animate	8s linear infinite;
 }
@@ -45,7 +45,7 @@ a:hover
 	}
 }
 
-a:before
+.button:before
 {
 	content: '';
 	position:absolute;
@@ -59,8 +59,9 @@ a:before
 	border-radius:30px;
 	opacity: 0;
 	transition: 0.5s;
+	cursor: pointer;
 }
-	a:hover;before
+	.button:hover;before
 {
 	filter:blur(20px);
 
@@ -91,6 +92,10 @@ section {
 	background: black;
 	display: flex;
 	flex-direction: row;
+}
+
+.href {
+
 }
 /*ul{
 	padding: 0px;
